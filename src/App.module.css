@@ -1,0 +1,38 @@
+.color {
+    position: relative;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color:hover > .copy {
+    display: block;
+}
+
+.copy {
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  left: 40px;
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid whitesmoke;
+  margin-top: 5px;
+  width: 50px;
+  background-color: green;
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+}
+
+.tag {
+  color: white;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 100px;
+    margin: 10px 0;
+}
